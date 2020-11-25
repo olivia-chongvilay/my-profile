@@ -1,0 +1,136 @@
+/*Color and fonts*/
+body {
+	background-color: #faf3dd;
+	font-family: Arial;
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 1.5;
+	text-align: center;
+}
+
+ul,h3{
+	text-align: left;
+}
+ 
+h1{
+	color: black;
+	font-size: 250%;
+	font-family: great vibes;
+	font-style: italic; 
+}
+
+h2 {
+	color: rgb(161,145,112);
+	font-size: 30px;
+	font-family: snell roundhand, cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Custom design with classes */
+
+<meta ="viewport" content="width=device-width, initial-scale=1">
+
+.container{
+	width: 700px;
+	margin: 30px auto;
+}
+
+@media screen and (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.container {
+		width: 450px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.container {
+		width: 350px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	margin: 35px auto;
+	padding: 15px;
+	box-shadow: 0px 10px 30px rgb(0,0,0,0.15);
+	width: 60%;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.img-small{
+	border-radius: 4px;
+}
+
+.btn-cream{
+	background-color: #a19170;
+	color: white;	
+	padding:10px 15px;
+	border-radius: 4px
+ }
+
+.btn-cream:hover{
+	background-color: #836832;
+	color: white;
+}
+
+.list-style{
+ 	list-style: none;
+ 	text-align: center;
+ 	padding-left: 0px;
+ 	font-size: 100%;
+}
+
+.lien-blue { 
+	text-decoration: none;
+	color: blue;
+	text-align: center;
+}
+.lien-blue:hover {
+	color: rgb(138,186,250);
+}
+
+.list-black a {
+	color: black;
+	text-decoration: none;
+	
+}
+.list-black a:hover {
+	font-weight: bold;
+}
+
+.list-black li {
+	list-style: none;
+ 	text-align: center;
+ 	font-size: 100%;
+}
+
+.list-black {
+	padding-left: 0px;
+}
+
+#facebook a {
+	font-size: 50px;
+}
+
+/*Custom design with id */
+
+
+
+
+
+ 
